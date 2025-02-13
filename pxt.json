@@ -1,17 +1,16 @@
 {
     "name": "pxt-bleadv-common",
-    "description": "",
+    "description": "Common files for other pxt-bleadv-* extensions providing BLEAdvManager and CryptTools. micro:bit (V2) only.",
     "dependencies": {
-        "core": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
-        "README.md"
-    ],
-    "testFiles": [
-        "test.ts"
+        "README.md",
+        "inc/BLEAdvManager.h",
+        "inc/IBLEAdvClient.h",
+        "inc/CryptTool.h",
+        "source/BLEAdvManager.cpp",
+        "source/CryptTool.cpp"
     ],
     "targetVersions": {
         "target": "7.0.57",
@@ -20,5 +19,18 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "disablesVariants": [
+        "mbdal"
+    ],
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 1,
+                    "eddystone_url": 0,
+                    "eddystone_uid": 0
+                }
+            }
+        }
+    }
 }

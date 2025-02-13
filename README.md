@@ -1,6 +1,15 @@
 
 > Open this page at [https://j0ek3r.github.io/pxt-bleadv-common/](https://j0ek3r.github.io/pxt-bleadv-common/)
 
+# pxt-bleadv-common
+
+A Microsoft Makecode extension for micro:bit `(V2) only` to send multiple Bluetooth LE Advertisements.
+
+This extension does not provide any public blocks or code.
+
+This extension contains the BLEAdvManager.
+Clients implementing IBLEAdvClient are registered at BLEAdvManager.
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
