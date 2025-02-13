@@ -28,9 +28,7 @@
         "config": {
             "microbit-dal": {
                 "bluetooth": {
-                    "enabled": 1,
-                    "eddystone_url": 0,
-                    "eddystone_uid": 0
+                    "enabled": 1
                 }
             }
         }
