@@ -1,6 +1,6 @@
 {
     "name": "BLEAdv Common",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Common files for other pxt-bleadv-* extensions providing BLEAdvManager and CryptTools. micro:bit (V2) only.",
     "dependencies": {
         "core": "*"
