@@ -23,14 +23,5 @@
     ],
     "disablesVariants": [
         "mbdal"
-    ],
-    "yotta": {
-        "config": {
-            "microbit-dal": {
-                "bluetooth": {
-                    "enabled": 1
-                }
-            }
-        }
-    }
+    ]
 }
