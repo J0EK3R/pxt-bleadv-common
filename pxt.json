@@ -10,7 +10,8 @@
         "inc/IBLEAdvClient.h",
         "inc/CryptTool.h",
         "source/BLEAdvManager.cpp",
-        "source/CryptTool.cpp"
+        "source/CryptTool.cpp",
+        "tutorial-info-cache.json"
     ],
     "targetVersions": {
         "target": "7.0.57",
