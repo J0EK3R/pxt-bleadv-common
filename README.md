@@ -10,6 +10,10 @@ This extension does not provide any public blocks or code.
 This extension contains the BLEAdvManager.
 Clients implementing IBLEAdvClient are registered at BLEAdvManager.
 
+These extensions are using pxt-bleadv-common
+* [BLEAdv M0uld K1ng Module 4.0](https://github.com/J0EK3R/pxt-bleadv-m0uld-k1ng-4-0)
+* [BLEAdv M0uld K1ng Module 6.0](https://github.com/J0EK3R/pxt-bleadv-m0uld-k1ng-6-0)
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
